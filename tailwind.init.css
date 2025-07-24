@@ -3,6 +3,10 @@
 @import 'tailwindcss';
 
 @layer utilities {
+  .dark-rgba {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
   .noto-serif {
     font-family: 'Noto Serif', serif;
   }
