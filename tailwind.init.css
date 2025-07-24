@@ -3,49 +3,16 @@
 @import 'tailwindcss';
 
 @layer utilities {
-  :root {
-    --dark1: #252432;
-    --dark2: #000000;
-    --dark3: #111111;
-    --tomato: #e95a08;
-    --gray1: #8987a1;
-    --gray2: rgba(0, 0, 0, 0.5);
-    --gray3: #6b7280;
-  }
-
-  .dar1 {
-    color: var(--dark1);
-  }
-
-  .dar2 {
-    color: var(--dark2);
-  }
-
-  .dar3 {
-    color: var(--dark3);
-  }
-
-  .tomato {
-    color: var(--tomato);
-  }
-
-  .gray1 {
-    color: var(--gray1);
-  }
-
-  .gray2 {
-    color: var(--gray2);
-  }
-
-  .gray3 {
-    color: var(--gray3);
-  }
-
   .noto-serif {
     font-family: 'Noto Serif', serif;
   }
 
   .inter {
     font-family: 'Inter', sans-serif;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
   }
 }
