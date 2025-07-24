@@ -7,6 +7,10 @@
     color: rgba(0, 0, 0, 0.5);
   }
 
+  .dark-bg-rgba {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
   .noto-serif {
     font-family: 'Noto Serif', serif;
   }
@@ -18,5 +22,18 @@
   img {
     width: 100%;
     height: auto;
+  }
+
+  #plant button {
+    transition: all linear 0.3s;
+    cursor: pointer;
+  }
+
+  #plant button:hover {
+    transform: translateY(-8px);
+  }
+
+  #trusted-badge {
+    animation-duration: 5s;
   }
 }
